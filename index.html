@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    <body>
+        <header><img src="piggvestlogo.svg"  >   </header>
+        <main>
+    
+            <div class="card">
+                <h3>Create a Secure Account</h3>
+               <p id="caption">Welcome to the future of Savings & Investments</p> 
+                <form method="POST" action="processregister.php">
+                    <p>
+                        <label>Full Name</label><br>
+                        <input type="text" name="full_name" placeholder="Full Name" required>
+                    </p>
+                     <p>
+                        <label>Email</label><br>
+                        <input type="text" name="email" placeholder="Email Address" required >
+                    </p>
+                    <p>
+                        <label>Phone Number</label><br>
+                        <input type="text" name="Phone_number" placeholder="Phone Number" required >
+                    </p>
+                    <p>
+                        <label>Password</label><br>
+                        <input type="password" name="password" placeholder="Password" required>
+                    </p>
+                    <p>
+                        <label>Referrer Phone or Promo Code (Optional)</label><br>
+                            <input type="text" name="Phone_number" placeholder="Referrer Phone Or Code" >
+                    </p>
+                    <p>
+                        <label>How Did You Hear About Us? (Optional)</label><br>
+                        <select name="Hear" >
+                            <option value="" class="option">Click To Select</option>
+                            <option class="option">Facebook</option>
+                            <option class="option">TV, Radio, Newspaper etc..</option>
+                            <option class="option">Friends And Family</option>
+                        </select>
+                    </p>
+            
+                    <p>
+                        <button type="submit">CREATE ACCOUNT</button>
+                    </p>
+                    <br>
+                
+                </form>
+
+            </div>
+           
+        </main>
+        <footer>
+        <div class="login">
+        <p id="footer"><a href="">Already have an account? Log in</a> </p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        </div>
+    </footer>
+
+    </body>
+
+
+</html>
