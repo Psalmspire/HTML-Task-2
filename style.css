@@ -16,6 +16,10 @@ main{ /* main container */
 
 }
 
+a:hover{
+    color: rgb(155, 108, 21);
+}
+
 p{ /* Global paragraph settings */
     color:midnightblue;
     padding:0;
@@ -33,18 +37,21 @@ p{ /* Global paragraph settings */
 
 h3{/*Caption text*/
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     margin:0px;
     padding-top:20px;
     color: rgb(28, 28, 141);
         
     }
-    #caption{
+
+    .caption{
         font-family: Old English;
-            font-size: 13px;
+            font-size: 14px;
             font-stretch: ultra-expanded;
-            font-variant: inherit;
-            font-weight: normal;
+            font-weight: lighter;
             text-align: center;
+            color:midnightblue;
     }
 
 a{
@@ -57,7 +64,7 @@ header{
     align-content: center;
     display: flex;
     flex-direction: row;
-    padding: 30px;
+    padding: 40px;
     background-image: url(bg.jpg);
 }
 
@@ -72,9 +79,9 @@ header{
     width: 30vw;
     background-color: rgb(255, 255, 255);
     text-align: center ;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
 }
 
 
@@ -112,7 +119,7 @@ header{
 
 /*input areas are below... input and select */
 input{
-    color: rgb(62, 48, 143);
+    color: rgb(35, 35, 37);
     background-color: rgb(239, 239, 241);
     border-style: none;
     max-width: 50vw;
@@ -120,21 +127,23 @@ input{
     height: 40px;
     justify-content: center;
     align-items: center;
+    margin-top: 5px;
     margin-left: 20px;
     margin-right: 20px; 
 }
 
 label{ /*label for inputs*/
-    padding-bottom: 10px;
+    padding-bottom: 0px;
     font-family: Candara;
     font-size: 14px;
     font-weight: bold;
     margin-left: 20px;
-    color: rgb(57, 57, 59);
+    color: rgb(43, 43, 47);
 }
 ::placeholder{ /*Placeholder style for inputs*/
-    color: rgb(95, 81, 81);
+    color: rgb(53, 43, 43);
     font-family: Aristotelica display;
+    font-size: 14px;
 }
 
 select{
@@ -145,8 +154,9 @@ select{
     text-indent: 10px;
     height: 40px;
     justify-content: center;
-    align-items: center;
-   margin-bottom: 10px;
+   margin-bottom: 20px;
+   margin-top: 0px;
+   margin-top: 5px;
    margin-left: 20px;
     margin-right: 20px;
     border-color: rgb(221, 221, 221);
@@ -155,8 +165,11 @@ select{
 }
 .option{ /*options for selection*/
     border-style: hidden;
-    color: rgb(53, 52, 54);
+    color: rgb(24, 23, 26);
     font-family: Aristotelica display;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
 }
 
 button{
